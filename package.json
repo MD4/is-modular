@@ -4,7 +4,7 @@
   "description": "A (really) simple command line tool which checks if your code is modular.",
   "main": "lib",
   "bin": {
-    "is-modular": "lib/index.js"
+    "is-modular": "lib/index"
   },
   "scripts": {
     "test": "mocha **/*.test.js"

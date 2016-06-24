@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('./is-modular')(process.argv.slice(2), _display)
 
 function _display(err, results) {
