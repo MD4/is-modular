@@ -1,0 +1,37 @@
+{
+  "name": "is-modular",
+  "version": "1.0.0",
+  "description": "A (really) simple command line tool which checks if your code is modular.",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD4/is-modular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MD4/is-modular/issues"
+  },
+  "homepage": "https://github.com/MD4/is-modular#readme",
+  "author": "Martin DEQUATREMARE (https://github.com/MD4)",
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "modular",
+    "code",
+    "inspect"
+  ],
+  "engines": {
+    "node": ">=4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "colour": "^0.7.1",
+    "glob": "^7.0.5"
+  }
+}
