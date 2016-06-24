@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "A (really) simple command line tool which checks if your code is modular.",
   "main": "lib",
+  "bin": {
+    "is-modular": "lib"
+  },
   "scripts": {
     "test": "mocha **/*.test.js"
   },
