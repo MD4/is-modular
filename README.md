@@ -5,12 +5,12 @@ A (really) simple command line tool which checks if your code is modular.
 
 ## installation
 
-npm install -g is-modular
+```npm install -g is-modular```
 
 ## usage
 
-is-modular <pattern>(...)
+```is-modular <pattern>(...)```
 
 ## example
 
-is-modular "lib/**/*.js" "index.js"
+```is-modular "lib/**/*.js" "index.js"```
