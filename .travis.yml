@@ -4,4 +4,4 @@ node_js:
 script: "npm test"
 after_success:
   - ./node_modules/.bin/jscoverage lib
-  - ./node_modules/.bin/mocha **/*.js -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
+  - ./node_modules/.bin/mocha lib/**/*.js -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
