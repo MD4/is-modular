@@ -7,9 +7,7 @@
     "is-modular": "lib/index"
   },
   "scripts": {
-    "test": "mocha **/*.test.js",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- -R spec lib/**/*.js",
-    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec lib/**/*.js"
+    "test": "mocha **/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -34,6 +32,7 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.4",
+    "jscoverage": "^0.6.0",
     "mocha": "^2.5.3",
     "mocha-lcov-reporter": "^1.2.0"
   },
