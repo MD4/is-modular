@@ -1,6 +1,9 @@
-# is-modular [![Build Status](https://travis-ci.org/MD4/is-modular.svg?branch=master)](https://travis-ci.org/MD4/is-modular)
+# is-modular
+[![Build Status](https://travis-ci.org/MD4/is-modular.svg?branch=master)](https://travis-ci.org/MD4/is-modular)
+[![Dependencies](https://david-dm.org/MD4/is-modular.svg)](https://david-dm.org/MD4/is-modular)
+[![Coverage Status](https://coveralls.io/repos/github/MD4/is-modular/badge.svg?branch=master)](https://coveralls.io/github/MD4/is-modular?branch=master)
 
-Is my is code modular ?
+Is my code is modular ?
 
 A (really) simple command line tool which checks if your code is modular.
 
