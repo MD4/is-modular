@@ -30,16 +30,16 @@
     "node": ">=0.10"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "coveralls": "^2.11.9",
-    "istanbul": "^0.4.4",
-    "jscoverage": "^0.6.0",
-    "mocha": "^2.5.3",
-    "mocha-lcov-reporter": "^1.2.0"
+    "chai": "3.5.0",
+    "coveralls": "2.11.9",
+    "istanbul": "0.4.4",
+    "jscoverage": "0.6.0",
+    "mocha": "2.5.3",
+    "mocha-lcov-reporter": "1.2.0"
   },
   "dependencies": {
-    "async": "^2.0.0-rc.6",
-    "colour": "^0.7.1",
-    "glob": "^7.0.5"
+    "async": "2.0.0-rc.6",
+    "colour": "0.7.1",
+    "glob": "7.0.5"
   }
 }
