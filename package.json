@@ -7,8 +7,7 @@
     "is-modular": "lib/index"
   },
   "scripts": {
-    "test": "mocha lib/**/*.test.js",
-    "coverage": "./node_modules/.bin/jscoverage lib"
+    "test": "mocha lib/**/*.test.js"
   },
   "repository": {
     "type": "git",
