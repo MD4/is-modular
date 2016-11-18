@@ -38,7 +38,7 @@ function _display(err, results) {
   })
 
   if (errored) {
-    console.error('\nOh boy..\n%s error(s) found in %s file(s)!'.red.bold, erroredFilesCount, errorsCount)
+    console.error('\nOh boy..\n%s error(s) found in %s file(s)!'.red.bold, errorsCount, erroredFilesCount)
     process.exit(1)
   }
   console.log('%s files checked.', results.length)
